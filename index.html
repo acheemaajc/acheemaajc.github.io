@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahsan Jamal Cheema</title>
+<meta name="description" content="Ahsan Jamal Cheema — PhD candidate at Harvard working on computational models of hearing, cochlear neural degeneration, and personalized hearing aids.">
+<meta name="author" content="Ahsan Jamal Cheema">
+<meta name="keywords" content="Ahsan Jamal Cheema, Harvard, hearing, cochlear neural degeneration, hidden hearing loss, auditory models, hearing aids, speech perception, machine learning">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<!-- Link-preview card (LinkedIn, Slack, X, iMessage). After deploying, you can make the image URL absolute,
+     e.g. https://YOUR-USERNAME.github.io/assets/img/profile.jpg, for the most reliable previews. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ahsan Jamal Cheema">
+<meta property="og:description" content="PhD candidate at Harvard building computational models of hearing to study cochlear neural degeneration and personalize hearing aids.">
+<meta property="og:image" content="assets/img/profile.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f7f8; --panel: #ffffff; --text: #1d1d1f; --muted: #6b6b73; --accent: #a51c30; --accent-soft: #fbeef0;
+    --rule: #e7e7ea; --chip: #f1f1f3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111214; --panel: #1a1b1e; --text: #ececee; --muted: #a0a0a8; --accent: #ff6b81; --accent-soft: #3a1d23;
+            --rule: #2b2c31; --chip: #26272b; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15.5px/1.65 "Inter", system-ui, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--panel) 88%, transparent);
+               backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
+  header.top .in { max-width: 1140px; margin: 0 auto; padding: 0 20px; height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  header.top .brand { font-weight: 700; color: var(--text); white-space: nowrap; }
+  header.top nav { display: flex; gap: 22px; overflow-x: auto; }
+  header.top nav a { color: var(--muted); font-weight: 500; font-size: 14.5px; white-space: nowrap; }
+  header.top nav a:hover { color: var(--accent); text-decoration: none; }
+
+  .layout { max-width: 1140px; margin: 0 auto; padding: 32px 20px 64px; display: grid; grid-template-columns: 280px 1fr; gap: 40px; }
+  aside { position: sticky; top: 88px; align-self: start; text-align: center; }
+  aside img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid var(--panel); box-shadow: 0 2px 14px rgba(0,0,0,.08); }
+  aside h1 { font-size: 22px; margin: 16px 0 4px; }
+  aside .role { color: var(--muted); font-size: 14px; margin: 0 0 16px; line-height: 1.5; }
+  aside ul { list-style: none; padding: 0; margin: 0; text-align: left; display: inline-block; font-size: 14px; }
+  aside li { display: flex; align-items: center; gap: 10px; padding: 5px 0; color: var(--muted); }
+  aside li svg { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  aside li a { color: var(--text); }
+  aside .email-img img { display: block; width: 189px; height: auto; border: 0; border-radius: 0; box-shadow: none; }
+
+  main section { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 28px 32px; margin-bottom: 24px; }
+  h2 { font-size: 20px; margin: 0 0 16px; padding-bottom: 10px; border-bottom: 2px solid var(--accent-soft); }
+  h3 { font-size: 15px; margin: 22px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
+  p { margin: 0 0 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 4px 12px; font-size: 13px; }
+
+  .pub { display: grid; grid-template-columns: 170px 1fr; gap: 18px; padding: 16px 0; border-top: 1px solid var(--rule); }
+  .pub:first-of-type { border-top: 0; padding-top: 4px; }
+  .pub img { width: 170px; height: 110px; object-fit: contain; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 4px; }
+  .pub .t { font-weight: 600; line-height: 1.4; }
+  .pub .a { font-size: 14px; color: var(--muted); }
+  .pub .a b { color: var(--text); }
+  .pub .v { font-size: 14px; font-style: italic; }
+  .badges { margin-top: 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .badges a, .badges span { font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 6px; border: 1px solid var(--accent); }
+  .badges a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+  .badges span { border-color: transparent; background: var(--accent-soft); color: var(--accent); }
+  ol.list { margin: 0; padding-left: 20px; }
+  ol.list li, ul.list li { margin: 8px 0; }
+  ul.list { margin: 0; padding-left: 20px; }
+
+  .tl { position: relative; padding-left: 22px; }
+  .tl::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 2px; background: var(--rule); }
+  .tl .item { position: relative; margin-bottom: 18px; }
+  .tl .item::before { content: ""; position: absolute; left: -22px; top: 7px; width: 12px; height: 12px; border-radius: 50%; background: var(--panel); border: 2px solid var(--accent); }
+  .tl .row { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .tl .org { font-weight: 600; }
+  .tl .when { color: var(--muted); font-size: 13.5px; }
+  .tl .what { font-size: 14px; color: var(--muted); }
+  .tl p { font-size: 14.5px; margin: 4px 0 0; }
+
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 8px; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    aside { position: static; }
+    header.top .brand { display: none; }
+  }
+  @media (max-width: 560px) {
+    main section { padding: 22px 18px; }
+    .pub { grid-template-columns: 1fr; }
+    .pub img { width: 100%; height: 150px; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="in">
+    <span class="brand">Ahsan Jamal Cheema</span>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#talks">Talks</a>
+      <a href="#honors">Honors</a>
+      <a href="#mentoring">Mentoring</a>
+      <a href="assets/cv.pdf">CV</a>
+    </nav>
+  </div>
+</header>
+
+<div class="layout">
+  <aside>
+    <img src="assets/img/profile.jpg" alt="Photo of Ahsan Jamal Cheema">
+    <h1>Ahsan Jamal Cheema</h1>
+    <p class="role">PhD Candidate<br>Harvard University</p>
+    <ul>
+      <li><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Cambridge, MA</li>
+      <li><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg>Mass Eye and Ear / HMS</li>
+      <li><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><picture class="email-img"><source srcset="assets/img/email-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/img/email-light.png" width="189" height="18" alt="Email address (shown as an image)"></picture></li>
+      <li><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg><a href="https://www.linkedin.com/in/acheema06">LinkedIn</a></li>
+      <li><svg viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg><a href="https://scholar.google.com/citations?user=Rx8jmBUAAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg><a href="assets/cv.pdf">Curriculum Vitae</a></li>    </ul>
+  </aside>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a PhD candidate at Harvard University, working in the OtoBiomechanics Lab at
+        Massachusetts Eye and Ear / Harvard Medical School with Prof. Sunil Puria.</p>
+      <p>I work at the intersection of <b>acoustics</b>, <b>machine learning</b>, and <b>auditory neuroscience</b>.
+        I study the perceptual effects of cochlear neural degeneration (CND) by building deep neural networks on biophysically
+        plausible representations of the auditory system. I then use these models to build personalized hearing-aid optimization models
+        and denoising algorithms. More broadly, I am interested in machine learning for audio.</p>
+      <p>Before my PhD, I was a Fulbright Scholar at Georgia Tech, where I studied finite element modeling and cochlear mechanics. I also spent six years in industry
+        (2014 to 2018 and 2020 to 2022) as a machinery-diagnostics engineer and product manager. In summer 2026 I was a Research Scientist Intern
+        in Audio ML at Meta Reality Labs.</p>
+      <p>When I'm not working, I like to hike, work out, and read.</p>
+      <h3>Research interests</h3>
+      <div class="chips">
+        <span class="chip">Machine learning for audio</span><span class="chip">Representation learning</span>
+        <span class="chip">Self-supervised learning</span><span class="chip">Simulation-based inference</span>
+        <span class="chip">Machine learning for health</span><span class="chip">Hearing aids</span>
+        <span class="chip">Speech perception</span><span class="chip">Auditory models</span>
+        <span class="chip">Information theory</span><span class="chip">Signal processing</span>
+        <span class="chip">Voice biomarkers</span>
+      </div>
+      <h3>News</h3>
+      <ul class="list">
+        <li><b>Nov 2026</b>: Invited talk at the National Acoustic Laboratories, Australia.</li>
+        <li><b>Sep 2026</b>: New preprint with NAL on <a href="https://arxiv.org/abs/2609.36272">speech probes for cochlear synaptopathy</a>.</li>
+        <li><b>Aug 2026</b>: Finished my Research Scientist internship at Meta Reality Labs.</li>
+        <li><b>2026</b>: Neck-Learn ranked 3rd and 5th in the Interspeech 2026 NeckVibe Challenge.</li>
+        <li><b>2026</b>: 1st place, Poster Blitz, ARO MidWinter Meeting.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <div class="pub">
+        <img src="assets/img/pubs/lowcontext2026.jpg" alt="Bar chart of modeled information loss">
+        <div>
+          <div class="t">Model-Guided Design of Low-Context Speech Probes for Cochlear Synaptopathy</div>
+          <div class="a"><b>A. J. Cheema</b>, D. Meng, J. Mejia, S. Hou, S. Puria</div>
+          <div class="v">arXiv preprint, 2026</div>
+          <div class="badges"><a href="assets/papers/cheema2026_lowcontext.pdf">PDF</a><a href="https://arxiv.org/abs/2609.36272">arXiv</a></div>
+        </div>
+      </div>
+      <div class="pub">
+        <img src="assets/img/pubs/necklearn2026.jpg" alt="Neck-Learn architecture">
+        <div>
+          <div class="t">Neck-Learn: Attention-Based Multiple Instance Learning and Ensemble Framework for Ecological Momentary Assessment</div>
+          <div class="a"><b>A. J. Cheema</b></div>
+          <div class="v">Interspeech 2026, <a href="https://sites.google.com/view/neckvibe-challenge/home">NeckVibe Challenge</a></div>
+          <div class="badges"><a href="assets/papers/cheema2026_necklearn.pdf">PDF</a><a href="https://arxiv.org/abs/2605.02700">arXiv</a><a href="https://sites.google.com/view/neckvibe-challenge/home">Challenge</a><span>Rank 3 NPVH · Rank 5 PVH</span></div>
+        </div>
+      </div>
+      <div class="pub">
+        <img src="assets/img/pubs/icassp2026.jpg" alt="Cochlear model pipeline">
+        <div>
+          <div class="t">Utilizing Information Theoretic Approach to Study Cochlear Neural Degeneration</div>
+          <div class="a"><b>A. J. Cheema</b>, S. Puria</div>
+          <div class="v">ICASSP 2026</div>
+          <div class="badges"><a href="assets/papers/cheema2026_icassp.pdf">PDF</a><a href="https://arxiv.org/abs/2510.06671">arXiv</a></div>
+        </div>
+      </div>
+      <div class="pub">
+        <img src="assets/img/pubs/interspeech2025.jpg" alt="NSIM scatter plots">
+        <div>
+          <div class="t">Using Neurogram Similarity Index Measure (NSIM) to Model Hearing Loss and Cochlear Neural Degeneration</div>
+          <div class="a"><b>A. J. Cheema</b>, S. Puria</div>
+          <div class="v">Interspeech 2025</div>
+          <div class="badges"><a href="assets/papers/cheema2025_interspeech.pdf">PDF</a><a href="https://arxiv.org/abs/2506.12705">arXiv</a></div>
+        </div>
+      </div>
+      <div class="pub">
+        <img src="assets/img/pubs/poma2025.jpg" alt="Equal-spike contours">
+        <div>
+          <div class="t">Modeling Loudness Contours to Determine Human Auditory Nerve Fiber Distribution and Cochlear Nerve Degeneration</div>
+          <div class="a">K. Burian, <b>A. J. Cheema</b>, S. Puria</div>
+          <div class="v">Proceedings of Meetings on Acoustics 60, 050006, 2025</div>
+          <div class="badges"><a href="assets/papers/burian2025_poma.pdf">PDF</a><a href="https://doi.org/10.1121/2.0002265">DOI</a><span>ASA Best Student Paper Award</span></div>
+        </div>
+      </div>
+      <div class="pub">
+        <img src="assets/img/pubs/jvoice2024.jpg" alt="Relative fundamental frequency curves">
+        <div>
+          <div class="t">Characterizing Vocal Hyperfunction Using Ecological Momentary Assessment of Relative Fundamental Frequency</div>
+          <div class="a"><b>A. J. Cheema</b>, K. L. Marks, H. Ghasemzadeh, J. H. Van Stan, R. E. Hillman, D. D. Mehta</div>
+          <div class="v">Journal of Voice, 2024</div>
+          <div class="badges"><a href="assets/papers/cheema2024_jvoice.pdf">PDF</a><a href="https://doi.org/10.1016/j.jvoice.2024.10.025">DOI</a><span>Best Student Paper Award, Voice Symposium 2024</span></div>
+        </div>
+      </div>
+      <h3>Also</h3>
+      <ul class="list">
+        <li>Inferring Neural Degeneration from Speech Confusion Patterns using Self-Supervised Learning. <b>Cheema</b> et al. <i>Under review</i>, 2026.</li>        <li>Simplified Vocal Efficiency Metrics Normalize Following Voice Therapy in Subgroups of Patients With Nonphonotraumatic Vocal Hyperfunction. Zhu, <b>Cheema</b>, et al. <i>AJSLP</i>, 2025.</li>
+        <li>Cochlear Mechanics Measurements for Hearing Aids. <b>Cheema</b> &amp; Puria. <i>Mechanics of Hearing</i>, 2024.</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3 style="margin-top:0">Research</h3>
+      <div class="tl">
+        <div class="item">
+          <div class="row"><span class="org">OtoBiomechanics Lab, Mass Eye and Ear / HMS</span><span class="when">2022 to present</span></div>
+          <div class="what">Graduate Research Assistant · Advisor: Prof. Sunil Puria</div>
+          <p>DNN and biophysical auditory models, psychophysics, and simulation-based inference for personalized hearing-aid fitting.</p>
+        </div>
+        <div class="item">
+          <div class="row"><span class="org">Meta Reality Labs</span><span class="when">Summer 2026</span></div>
+          <div class="what">Research Scientist Intern, Audio Machine Learning</div>
+          <p>Speech enhancement for wearables, VAE representations of hearing loss, and speech-intelligibility modeling.</p>
+        </div>
+        <div class="item">
+          <div class="row"><span class="org">MGH Voice Center</span><span class="when">2023 to 2024</span></div>
+          <div class="what">Rotation Student · Advisor: Prof. Daryush Mehta</div>
+          <p>Machine-learning voice biomarkers for vocal hyperfunction from neck-surface accelerometer recordings.</p>
+        </div>
+        <div class="item">
+          <div class="row"><span class="org">Meaud Research Group, Georgia Tech</span><span class="when">2019 to 2020</span></div>
+          <div class="what">Graduate Student Researcher</div>
+          <p>Finite-element modeling of nonlinear cochlear mechanics: two-tone suppression and distortion products.</p>
+        </div>
+      </div>
+      <h3>Industry</h3>
+      <div class="tl">
+        <div class="item"><div class="row"><span class="org">Arbisoft</span><span class="when">2022</span></div><div class="what">Product Manager</div></div>
+        <div class="item"><div class="row"><span class="org">Intech Process Automation</span><span class="when">2020 to 2022</span></div><div class="what">Product Manager / Owner</div></div>
+        <div class="item"><div class="row"><span class="org">Fatima Fertilizer Company</span><span class="when">2014 to 2018</span></div><div class="what">Inspection Engineer, machinery diagnostics</div></div>
+      </div>
+      <h3>Education</h3>
+      <div class="tl">
+        <div class="item"><div class="row"><span class="org">Harvard University</span><span class="when">2022 to 2028 (expected)</span></div><div class="what">PhD, Speech and Hearing Bioscience and Technology</div></div>
+        <div class="item"><div class="row"><span class="org">Georgia Institute of Technology</span><span class="when">2018 to 2020</span></div><div class="what">MS, Mechanical Engineering (Fulbright) · Certificate, Management of Technology</div></div>
+        <div class="item"><div class="row"><span class="org">NUST, Pakistan</span><span class="when">2010 to 2014</span></div><div class="what">BE, Mechanical Engineering</div></div>
+      </div>
+    </section>
+
+    <section id="talks">
+      <h2>Talks &amp; Presentations</h2>
+      <h3 style="margin-top:0">Invited talks</h3>
+      <ul class="list">
+        <li>Estimating Cochlear Neural Degeneration and Optimizing Hearing Aids using Cochlear Models. <i>National Acoustic Laboratories</i>, Australia, November 2026.</li>
+        <li>Virtual Listener Based Machine-Learning Optimization of Hearing-Aid Processing. <i>Sonova</i>, June 2026.</li>
+        <li>Virtual Listener Based Machine-Learning Optimization of Hearing-Aid Processing. <i>Acoustical Society of America Meeting</i>, May 2026.</li>
+        <li>Invited to speak at <i>Forum Acusticum</i> 2026 (declined).</li>
+      </ul>
+      <h3>Other talks</h3>
+      <ul class="list">
+        <li>Characterizing Vocal Hyperfunction Using Ecological Momentary Assessment of Relative Fundamental Frequency. <i>Voice Foundation Annual Symposium</i>, Philadelphia, 2024. <b>Best Student Paper Award.</b></li>
+        <li>Mass Eye and Ear Salon Talk, 2024.</li>
+        <li>Harvard SHBT Retreat Talk, 2024.</li>
+        <li>Harvard SHBT Retreat Talk, 2023.</li>
+      </ul>
+      <h3>Posters</h3>
+      <ul class="list">
+        <li>Hearing Aids Optimization using Cochlear Model. <i>IHCON</i>, 2026.</li>
+        <li>Model-Optimized Speech-in-Noise Test as a Behavioural Marker for Hidden Hearing Difficulties in Adults with Normal Audiograms. <i>IHCON</i>, 2026.</li>
+        <li>Utilizing Information Theoretic Approach to Study Cochlear Neural Degeneration. <i>ICASSP</i>, 2026.</li>
+        <li>Developing Diagnostic and Amplification Strategies to Compensate for Cochlear Neural Degeneration. <i>ARO MidWinter Meeting</i>, San Juan, 2026.</li>
+        <li>Using Neurogram Similarity Index Measure (NSIM) to Model Hearing Loss and Cochlear Neural Degeneration. <i>Interspeech</i>, 2025.</li>
+        <li>Modeling Performance on Speech Tasks Using Neurogram Similarity Index Measure. <i>ARO MidWinter Meeting</i>, Orlando, 2025.</li>
+        <li>Modeling Speech Intelligibility at the Inferior Colliculus Level. <i>ASA Meeting</i>, Honolulu, 2025.</li>
+        <li>Understanding Sound Source Localization using Manifold Learning. <i>ASA Meeting</i>, Honolulu, 2025.</li>
+        <li>Modeling the Effect of Auditory Nerve Synaptopathy on Hearing in Noise. <i>IHCON</i>, 2024.</li>
+      </ul>
+    </section>
+
+    <section id="honors">
+      <h2>Honors &amp; Awards</h2>
+      <ul class="list">
+        <li><b>First Place, Poster Blitz</b>, Association for Research in Otolaryngology, 2026</li>
+        <li><b>NeckVibe Challenge</b>, Interspeech 2026: Rank 3 (NPVH, AUC 0.848), Rank 5 (PVH, AUC 0.879)</li>
+        <li><b>Eaton-Peabody Scholarship</b>, Mass Eye and Ear, 2026</li>
+        <li><b>ARO Travel Award</b>, Association for Research in Otolaryngology, 2026</li>
+        <li><b>ASA Travel Award</b>, Acoustical Society of America, 2025</li>
+        <li><b>Best Student Paper Award</b>, Acoustical Society of America, for "Modeling Loudness Contours to Determine Human Auditory Nerve Fiber Distribution and Cochlear Nerve Degeneration" (with Kai Burian and Sunil Puria)</li>
+        <li><b>Best Student Paper Award</b>, Voice Foundation Annual Symposium, 2024, for "Characterizing Vocal Hyperfunction Using Ecological Momentary Assessment of Relative Fundamental Frequency"</li>
+        <li><b>Nelson Kiang Scholarship</b>, Mass Eye and Ear, 2024</li>
+        <li><b>Fulbright Scholar</b>, U.S. Department of State, 2018 to 2020</li>
+        <li><b>Chancellor's Silver Medal</b>, NUST, 2014</li>
+      </ul>
+    </section>
+
+    <section id="mentoring">
+      <h2>Students Mentored</h2>
+      <div class="tl">
+        <div class="item">
+          <div class="row"><span class="org">Kai Burian</span><span class="when">Jun 2025 to Dec 2025</span></div>
+          <p>Co-authored "Modeling Loudness Contours to Determine Human Auditory Nerve Fiber Distribution and Cochlear Nerve Degeneration" (<i>POMA</i>, 2025), winner of an ASA Best Student Paper Award.</p>
+        </div>
+        <div class="item">
+          <div class="row"><span class="org">Gabriel McDermentt</span><span class="when">Jun 2025 to Sep 2025</span></div>
+          <div class="what">Now a PhD candidate at Northwestern University</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 Ahsan Jamal Cheema · Last updated November 2026</footer>
+  </main>
+</div>
+</body>
+</html>

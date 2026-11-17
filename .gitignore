@@ -1,0 +1,9 @@
+# Source material (published copies live in assets/)
+/papers/
+/pictures/
+/resume/
+/drafts/
+
+# Local tooling / OS files
+.claude/
+.DS_Store
