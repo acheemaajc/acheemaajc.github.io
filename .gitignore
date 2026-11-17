@@ -7,3 +7,6 @@
 # Local tooling / OS files
 .claude/
 .DS_Store
+
+# Paper PDFs are linked from arXiv / publishers, not stored here
+assets/papers/

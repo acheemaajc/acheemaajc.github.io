@@ -8,7 +8,6 @@ assets/cv.pdf           CV linked from the site
 assets/favicon.svg      browser-tab icon
 assets/img/profile.jpg  headshot
 assets/img/pubs/        publication thumbnails
-assets/papers/          paper PDFs linked from the site
 drafts/                 the two layouts not chosen (git-ignored)
 ```
 
@@ -39,7 +38,7 @@ Then open http://localhost:8765.
 
 ## Common updates
 
-- **New paper:** copy one `<div class="pub">…</div>` block in the Publications section. Put the PDF in `assets/papers/` and a thumbnail in `assets/img/pubs/`.
+- **New paper:** copy one `<div class="pub">…</div>` block in the Publications section. Link the PDF from arXiv or the publisher (paper PDFs are not stored in this repo), and put a thumbnail in `assets/img/pubs/`.
 - **News:** edit the `<ul>` under "News" in the About section.
 - **CV:** replace `assets/cv.pdf`. Note that the current file includes your phone number.
 - **More profile links (e.g. GitHub):** copy the Google Scholar `<li>` in the sidebar and change the icon, URL and label.
