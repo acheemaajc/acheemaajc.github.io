@@ -1,44 +1,11 @@
-# Ahsan Jamal Cheema — academic website
+# Ahsan Jamal Cheema
 
-A plain HTML site. No build step is needed. `index.html` is the whole site, and everything it uses lives in `assets/`.
+Ahsan Jamal Cheema is a PhD candidate at Harvard University, working in the OtoBiomechanics Lab at Massachusetts Eye and Ear / Harvard Medical School with Prof. Sunil Puria. Working at the intersection of acoustics, machine learning, and auditory neuroscience, Ahsan studies the perceptual effects of cochlear neural degeneration ("hidden hearing loss") by building deep neural networks on biophysically plausible representations of the auditory system. These models are then used to develop personalized hearing-aid optimization and denoising algorithms. Ahsan's broader interests include machine learning for audio and representation learning for biological systems.
 
-```
-index.html              the site
-assets/cv.pdf           CV linked from the site
-assets/favicon.svg      browser-tab icon
-assets/img/profile.jpg  headshot
-assets/img/pubs/        publication thumbnails
-drafts/                 the two layouts not chosen (git-ignored)
-```
+Ahsan's research has appeared at ICASSP and Interspeech and in the *Journal of Voice* and *Proceedings of Meetings on Acoustics*. It has received two Best Student Paper Awards (Acoustical Society of America and the Voice Foundation Symposium) and first place in the Poster Blitz at the Association for Research in Otolaryngology MidWinter Meeting. In 2026, Ahsan was a Research Scientist Intern in Audio Machine Learning at Meta Reality Labs.
 
-## Preview locally
+Before the PhD, Ahsan was a Fulbright Scholar at Georgia Tech (MS, Mechanical Engineering), studying finite element modeling and cochlear mechanics, and spent six years in industry as a machinery-diagnostics engineer and product manager. Ahsan holds a BE in Mechanical Engineering from the National University of Sciences and Technology, Pakistan.
 
-```bash
-python3 -m http.server 8765
-```
+**Website:** https://acheemaajc.github.io
 
-Then open http://localhost:8765.
-
-## Publish on GitHub Pages
-
-1. Create a public repository on GitHub named exactly `YOUR-USERNAME.github.io`.
-2. From this folder, push the site:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial site"
-   git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io.git
-   git push -u origin main
-   ```
-3. On GitHub, open **Settings → Pages**. Set **Source** to "Deploy from a branch", choose `main` and `/ (root)`, and save.
-4. After a minute or two, the site is live at `https://YOUR-USERNAME.github.io`.
-
-`.gitignore` keeps the raw `papers/`, `pictures/` and `resume/` folders out of the repository, so only the copies in `assets/` are published.
-
-## Common updates
-
-- **New paper:** copy one `<div class="pub">…</div>` block in the Publications section. Link the PDF from arXiv or the publisher (paper PDFs are not stored in this repo), and put a thumbnail in `assets/img/pubs/`.
-- **News:** edit the `<ul>` under "News" in the About section.
-- **CV:** replace `assets/cv.pdf`. Note that the current file includes your phone number.
-- **More profile links (e.g. GitHub):** copy the Google Scholar `<li>` in the sidebar and change the icon, URL and label.
+<sub><sup>Created using [Claude](https://claude.ai)</sup></sub>
